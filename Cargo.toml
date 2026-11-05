@@ -2,6 +2,11 @@
 name = "net_scanner"
 version = "0.1.0"
 edition = "2021"
+description = "A Rust CLI tool for scanning multiple targets for open ports using rustscan"
+license = "MIT"
+repository = "https://github.com/mnk-works/net_scanner"
+documentation = "https://github.com/mnk-works/net_scanner/README.md"
+authors = ["OpenHands <openhands@all-hands.dev>"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
