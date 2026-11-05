@@ -1,8 +1,0 @@
-# Test URLs with various formats
-google.com
-https://github.com
-http://python.org
-192.168.1.1
-# Comment line
-subdomain.example.com
-https://subdomain.example.com
