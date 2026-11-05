@@ -11,18 +11,21 @@ This tool allows you to scan multiple targets for open ports using rustscan. It 
 1. Clone this repository:
 ```bash
 ggit clone <repository-url>
-cd rustscan_cli
+cd net_scanner
 cargo build --release
 ```
 
 2. Ensure rustscan is installed on your system:
 ```bash
-# On Ubuntu/Debian
-apt-get update
-apt-get install rustscan
+# On Ubuntu/Debian / Kali / Parrot
+cargo install rustscan
 
-# On macOS
-brew install rustscan
+# Or using package manager (if available):
+# sudo apt install rustscan          # Debian/Ubuntu/Kali
+# brew install rustscan              # macOS
+# pkg install rustscan              # Android/termux
+# yay rustscan                     # Arch Linux
+# snap install rustscan             # Snap-based systems
 
 # Or download from https://github.com/RustScan/RustScan
 ```
