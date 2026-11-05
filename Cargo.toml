@@ -12,3 +12,7 @@ authors = ["OpenHands <openhands@all-hands.dev>"]
 
 [dependencies]
 regex = "1"
+
+[[bin]]
+name = "net_scanner"
+path = "src/main.rs"
